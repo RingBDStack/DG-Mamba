@@ -11,9 +11,7 @@ python main.py --dataset collab --load_best_config
 Or:
 
 ```
-python main.py --dataset collab --lr 0.0025 --weight_decay 1e-3 --num_layers 1 --hidden_channels 32 \
-        --num_heads 1 --rb_order 1 --rb_trans sigmoid --M 30 --K 10 --use_bn --use_residual \
-        --use_gumbel --epochs 2000 --beta1 0.1 --beta2 50.0 --gamma 0.0025 --lamda_1 0.025 --mu 1.0 --patience 500
+python main.py --dataset collab --lr 0.0025 --weight_decay 1e-3 --num_layers 1 --hidden_channels 32 --num_heads 1 --rb_order 1 --rb_trans sigmoid --M 30 --K 10 --use_bn --use_residual --use_gumbel --epochs 2000 --beta1 0.1 --beta2 50.0 --gamma 0.0025 --lamda_1 0.025 --mu 1.0 --patience 500
 ```
 
 ### Evaluation
