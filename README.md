@@ -37,7 +37,7 @@ python eval.py --dataset=yelp_evasive_1  --exp_type=evasive  --load_best_config
 
 - `dataset_name`: name of the datasets, including "collab", "yelp", and "act".
 - `load_best_config`: if training with the preset configurations. 
-- `exp_mode`: adversarial attacking modes, including "clean", "structure", "feature", "evasive", and "poisoning".
+- `exp_type`: adversarial attacking modes, including "clean", "structure", "feature", "evasive", and "poisoning".
 
 #### Configurations for `dataset_name` under different attacking modes
 
