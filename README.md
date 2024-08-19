@@ -22,7 +22,7 @@ To evaluate REDGSLwith trained models, run the following command in the ROOT dir
 python eval.py --dataset=<dataset_name>  --exp_type=<exp_mode>  --load_best_config
 ```
 
-Please put the trained model in the directory `./saved_model`
+Please download pre-trained model from **link** and put the trained model in the directory `./saved_model`
 
 Example:
 
