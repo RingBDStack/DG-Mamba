@@ -1,6 +1,12 @@
 # [AAAI 2025] REDGSL: Advancing Robust Graph Representation via Efficient Dynamic Graph Structure Learning
 
+This repository is the official implementation of "[REDGSL: Advancing Robust Graph Representation via Efficient Dynamic Graph Structure Learning]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
 
+<p align="center">
+<img src="framework.png" width="100%" class="center" alt="logo"/>
+</p>
+
+-----
 
 ### Training
 
@@ -18,7 +24,7 @@ python main.py --dataset collab --lr 0.0025 --weight_decay 1e-3 --num_layers 1 -
 
 ### Evaluation
 
-To evaluate REDGSLwith trained models, run the following command in the ROOT directory:
+To evaluate REDGSL with trained models, run the following command in the ROOT directory:
 
 ```eval
 python eval.py --dataset=<dataset_name>  --exp_type=<exp_mode>  --load_best_config
