@@ -1,4 +1,6 @@
-# REDGSL
+# [AAAI 2025] REDGSL: Advancing Robust Graph Representation via Efficient Dynamic Graph Structure Learning
+
+
 
 ### Training
 
