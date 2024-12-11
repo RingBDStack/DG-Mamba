@@ -1,6 +1,6 @@
-# [AAAI 2025] G-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
+# [AAAI 2025] DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
 
-This repository is the official implementation of "[G-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
+This repository is the official implementation of "[DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
 
 <p align="center">
 <img src="framework.png" width="100%" class="center" alt="logo"/>
