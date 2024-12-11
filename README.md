@@ -1,6 +1,6 @@
-# [AAAI 2025] REDGSL: Advancing Robust Graph Representation via Efficient Dynamic Graph Structure Learning
+# [AAAI 2025] G-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
 
-This repository is the official implementation of "[REDGSL: Advancing Robust Graph Representation via Efficient Dynamic Graph Structure Learning]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
+This repository is the official implementation of "[G-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
 
 <p align="center">
 <img src="framework.png" width="100%" class="center" alt="logo"/>
@@ -10,7 +10,7 @@ This repository is the official implementation of "[REDGSL: Advancing Robust Gra
 
 ### Training
 
-To train REDGSL, run the following command in the ROOT directory :
+To train DG-Mamba, run the following command in the ROOT directory :
 
 ```train
 python main.py --dataset collab --load_best_config
@@ -24,13 +24,13 @@ python main.py --dataset collab --lr 0.0025 --weight_decay 1e-3 --num_layers 1 -
 
 ### Evaluation
 
-To evaluate REDGSL with trained models, run the following command in the ROOT directory:
+To evaluate DG-Mamba with trained models, run the following command in the ROOT directory:
 
 ```eval
 python eval.py --dataset=<dataset_name>  --exp_type=<exp_mode>  --load_best_config
 ```
 
-Please download pre-trained model from **link** and put the trained model in the directory `./saved_model`
+Please download the pre-trained model from **link** and put the trained model in the directory `./saved_model`
 
 Example:
 
