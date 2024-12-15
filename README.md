@@ -51,7 +51,7 @@ To evaluate DG-Mamba with trained models, run the following command in the ROOT 
 python eval.py --dataset=<dataset_name>  --exp_type=<exp_mode>  --load_best_config
 ```
 
-Please download the pre-trained model from **link** and put the trained model in the directory `./saved_model`
+Please download the pre-trained model from **[link](https://huggingface.co/AAAI-25-Submission-666/REDGSL)** and put the trained model in the directory `./saved_model`
 
 Example:
 
