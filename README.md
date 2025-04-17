@@ -1,6 +1,6 @@
 # [AAAI 2025] DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
 
-This repository is the official implementation of "[DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models]()" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
+This repository is the official implementation of "[DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models](https://ojs.aaai.org/index.php/AAAI/article/download/34382/36537)" accepted by the Main Technical Track of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI-2025).
 
 <p align="center">
 <img src="framework.png" width="100%" class="center" alt="logo"/>
@@ -73,13 +73,16 @@ python eval.py --dataset=yelp_evasive_1  --exp_type=evasive  --load_best_config
 - Targeted adversarial attack (poisoning): `dataset_name` is chosen from "collab_poisoning_1", "collab_poisoning_2", "collab_poisoning_3", "collab_poisoning_4", "yelp_poisoning_1", "yelp_poisoning_2", "yelp_poisoning_3", "yelp_poisoning_4", "act_poisoning_1", "act_poisoning_2", "act_poisoning_3", "act_poisoning_4".
 
 ## 3. Citation
-If you find this repository helpful, please consider citing us. We welcome any discussions with [qinjw@buaa.edu.cn](mailto:qinjw@buaa.edu.cn).
+If you find this repository helpful, please consider citing us. We welcome any discussions with [yuanhn@buaa.edu.cn](mailto:yuanhn@buaa.edu.cn).
 
 ```bibtex
-@inproceedings{qin2025iglbench,
-  title={{IGL}-Bench: Establishing the Comprehensive Benchmark for Imbalanced Graph Learning},
-  author={Jiawen Qin and Haonan Yuan and Qingyun Sun and Lyujin Xu and Jiaqi Yuan and Pengfeng Huang and Zhaonan Wang and Xingcheng Fu and Hao Peng and Jianxin Li and Philip S. Yu},
-  booktitle={The Thirteenth International Conference on Learning Representations},
+@inproceedings{yuan2025dg,
+  title={DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models},
+  author={Yuan, Haonan and Sun, Qingyun and Wang, Zhaonan and Fu, Xingcheng and Ji, Cheng and Wang, Yongjian and Jin, Bo and Li, Jianxin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={21},
+  pages={22272--22280},
   year={2025}
 }
 ```
